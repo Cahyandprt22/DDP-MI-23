@@ -3,12 +3,12 @@ using namespace std;
 
 int main()
 {
-    float a, b;
-    cin >> a >> b;
+    float value1, value2;
+    cin >> value1 >> value2;
 
-    cout << "Hasil dari Penjumlahan " << a << " dengan " << b << " adalah " << a + b << endl;
-    cout << "Hasil dari Pengurangan " << a << " dengan " << b << " adalah " << a - b << endl;
-    cout << "Hasil dari Perkalian " << a << " dengan " << b << " adalah " << a * b << endl;
-    cout << "Hasil dari Pembagian " << a << " dengan " << b << " adalah " << a / b << endl;
+    cout << "Hasil dari Penjumlahan " << value1 << " dengan " << value2 << " adalah " << value1 + value2 << endl;
+    cout << "Hasil dari Pengurangan " << value1 << " dengan " << value2 << " adalah " << value1 - value2 << endl;
+    cout << "Hasil dari Perkalian " << value1 << " dengan " << value2 << " adalah " << value1 * value2 << endl;
+    cout << "Hasil dari Pembagian " << value1 << " dengan " << value2 << " adalah " << value1 / value2 << endl;
     return 0;
 }
