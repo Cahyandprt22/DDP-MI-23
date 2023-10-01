@@ -1,19 +1,18 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
 {
     int x;
-
     cin >> x;
 
-    if (x == 100)
+    if (x % 2 == 0)
     {
-        cout << "SEMPURNA" << endl;
+        cout << "Genap" << endl;
     }
     else
     {
-        cout << "BELUM SEMPURNA" << endl;
+        cout << "Ganjil" << endl;
     }
+    return 0;
 }
