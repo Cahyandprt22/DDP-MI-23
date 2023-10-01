@@ -10,7 +10,6 @@ int main() {
     if (x == 100) {
         cout << "SEMPURNA" << endl;   
     } else {
-
         cout << "BELUM SEMPURNA" << endl;
     }
 }
