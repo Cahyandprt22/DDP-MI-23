@@ -13,7 +13,7 @@ int main()
         cout << "SEMPURNA" << endl;
     }
     else
-    {
+     {
         cout << "BELUM SEMPURNA" << endl;
     }
 }
